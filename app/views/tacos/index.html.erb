@@ -1,0 +1,20 @@
+<% fillings = ["carnitas", "Al Pastor", "steak", "pescado"]%>
+
+<h1>I love tacos!</h1>
+
+<h2>New version</h2>
+<p>There are <%= fillings.length %> tacos:</p>
+<ul>
+  <% for item in fillings%>
+    <li><%= item %></li>
+  <% end %>
+</ul>
+
+<h2>Old version</h2>
+<p>There are <%= 2 + 1%> <% 3 + 5%> tacos:</p>
+<ul>
+  <li>Carnitas</li>
+  <li>Steak</li>
+  <li>Fish</li>
+</ul>
+ 
