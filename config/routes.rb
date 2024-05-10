@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   # get("/things", :controller => "things", :action => "index")
   resources "tacos"
-  resouces "dice"
+  resources "dice"
 end
